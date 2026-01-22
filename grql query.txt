@@ -1,0 +1,46 @@
+query GetDelicacyAndProducts{
+  delicacies {
+    content{
+      id
+      fats
+      kcal
+      carbohydrates
+    }
+  }
+  
+  products{
+    id
+    name
+  }
+}
+
+
+mutation{
+  createProduct(input:{
+		name: "Apple"
+  }) {
+    name
+  }
+  
+  createDelicacy(input:{
+    name: "Apple pie",
+    price: 100, 
+    mass: 10, 
+    proteins: 10, 
+    fats: 10, 
+    carbohydrates: 10, 
+    kcal: 10, 
+    country: "Karelia", 
+    productIds: ["Apple"]   
+  }) {
+    name,
+    price, 
+    mass, 
+    proteins, 
+    fats, 
+    carbohydrates, 
+    kcal, 
+    country, 
+    products{name}
+  }
+}
