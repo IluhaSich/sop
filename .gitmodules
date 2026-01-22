@@ -1,0 +1,21 @@
+[submodule "analytics-service"]
+	path = analytics-service
+	url = https://github.com/IluhaSich/analytics-service
+[submodule "audit-service"]
+	path = audit-service
+	url = https://github.com/IluhaSich/audit-service
+[submodule "events-contract"]
+	path = events-contract
+	url = https://github.com/IluhaSich/events-contract
+[submodule "grpc-server"]
+	path = grpc-server
+	url = https://github.com/IluhaSich/grpc-server
+[submodule "notification-service"]
+	path = notification-service
+	url = https://github.com/IluhaSich/notification-service
+[submodule "subdel"]
+	path = subdel
+	url = https://github.com/IluhaSich/subdel
+[submodule "subdel-api"]
+	path = subdel-api
+	url = https://github.com/IluhaSich/subdel-api
